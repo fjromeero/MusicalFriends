@@ -7,11 +7,11 @@
   
 ### Solución:
   
-  Con esta aplicación recibirás según el analísis de tu historial de lecturas totales y el de últimas lecturas, nuevas obras para leer, teniendo en cuenta los géneros mas repetidos en dichas obras y la puntuación de ellas del resto de usuarios.
+  Con esta aplicación recibirás según el analísis de tu historial de lecturas totales y el de últimas lecturas (solo deberá introducir sus datos de su cuenta de MyAnimeList), nuevas obras para leer, teniendo en cuenta los géneros mas repetidos en dichas obras y la puntuación de ellas del resto de usuarios.
   
  ### Lógica de negocio
  Recomendación de mangas/webtoons mediante dos sistemas diferentes
   - Gente sin previa experiencia en manga, sistema de popularidad: en el que se recomendarán las obras más populares entre los usuarios.
-  - Gente con experiencia, sistema de contenido :  a traves de la evaluación de obras previamente leidas por el usuario (las cuales han de ser introducidas previamente por el usuario haciendo uso de una API todavia por decidir) se le recomendaran otras obras con coincidan con el género, artista de las ya vistas.
+  - Gente con experiencia, sistema de contenido :  a traves de la evaluación de obras previamente leidas por el usuario (las cuales son obtenidas a traves de la API anteriormente mencionadas, para ello el usuario debe tener mangas añadidos en su lista previamente en la pagina con la que trabaja la API) se le recomendaran obras que le sean adecuadas según los géneros que más a consumido el usuario.
   
   ---
