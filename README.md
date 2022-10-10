@@ -2,7 +2,7 @@
 ## Musical Friends 
 
 ### - Objetivos
-  - [Objetivo 1](docs/Objetivos/objetivo-1.md) 
+  - [Objetivo 1](../docs/Objetivos/Objetivo-1.md) 
 
 ### - Problema:
 
