@@ -2,7 +2,9 @@
 ## Musical Friends 
 
 ### - Objetivos
-  - [Objetivo 1](../docs/Objetivos/Objetivo-1.md) 
+  - [Objetivo 1](docs/Objetivos/Objetivo-1.md) 
+
+ ---
 
 ### - Problema:
 
@@ -21,4 +23,5 @@ La lógica de negocio consiste en un algoritmo que evaluará y devolverá valore
  
  ### - Planificación
   [Historias de usuario y milestones](/docs/planteamiento.md)
+  
   ---
