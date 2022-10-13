@@ -1,7 +1,8 @@
 # Milestones 
 
-- [[M0] Buscar estructura de datos para almacenar los géneros escuchados por el usuario](https://github.com/fjromeero/MusicalFriends/milestone/1)
-  Esta se usará para guardar cada uno de los géneros que el usuario escucha con más frecuencia
+- [[M0] Estructura de datos que represente la información de los gustos del usuario](https://github.com/fjromeero/MusicalFriends/milestone/1)
+  Esta se usará para representar los géneros más escuchados por el usuario
+
 
 - [[M1] Librería para obtener la información de los gustos del usuario](https://github.com/fjromeero/MusicalFriends/milestone/2)
   Con la ayuda de esta podremos obtener los géneros más escuchados por el usuario (fuentes externas a nuestro proyecto) y almacenarlas en las estructuras que elijamos en   M0
