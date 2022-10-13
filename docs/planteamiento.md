@@ -5,10 +5,10 @@
 
 
 - [[M1] Librería para obtener la información de los gustos del usuario](https://github.com/fjromeero/MusicalFriends/milestone/2)
-  Con la ayuda de esta podremos obtener los géneros más escuchados por el usuario (fuentes externas a nuestro proyecto) y almacenarlas en las estructuras que elijamos en   M0
+  Con la ayuda de esta podremos obtener los géneros más escuchados por el usuario (fuentes externas a nuestro proyecto) y almacenarlas en las estructuras que elijamos en   [M0]( https://github.com/fjromeero/MusicalFriends/milestone/1)
 
 - [[M2] Implementación de la lógica de negocio (algoritmo de recomendación)](https://github.com/fjromeero/MusicalFriends/milestone/3)
-  A partir de los géneros obtenidos con M1 , aportar al usuario una lista de usuarios que tengan gustos parecidos a través de un algoritmo de recomendación.
+  A partir de los géneros obtenidos con [M1](https://github.com/fjromeero/MusicalFriends/milestone/2) almacenadas en [M0]( https://github.com/fjromeero/MusicalFriends/milestone/1) , implementaremos un algoritmo que nos permita deducir los gustos del usuario y obtener como resultado posibles usuarios compatibles.
 
 # User stories
 
