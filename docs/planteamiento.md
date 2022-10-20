@@ -1,14 +1,13 @@
 # Milestones 
 
-- [[M0] Estructura de datos que represente la información de los gustos del usuario](https://github.com/fjromeero/MusicalFriends/milestone/1)
-  Esta se usará para representar los géneros más escuchados por el usuario
+- [[M0] Modelo que defina la estructura de datos para almacenar los usuarios y los géneros de las canciones](https://github.com/fjromeero/MusicalFriends/milestone/1)
 
+- [[M1] Sistema de recomendación de personas en base a los gustos musicales](https://github.com/fjromeero/MusicalFriends/milestone/2) :
+  Los usuarios necesitan un algoritmo que les recomienden personas con las que compartan sus gustos musicales, en este caso por géneros.
 
-- [[M1] Librería para obtener la información de los gustos del usuario](https://github.com/fjromeero/MusicalFriends/milestone/2)
-  Con la ayuda de esta podremos obtener los géneros más escuchados por el usuario (fuentes externas a nuestro proyecto) y almacenarlas en las estructuras que elijamos en   [M0]( https://github.com/fjromeero/MusicalFriends/milestone/1)
+- [[M2] Biblioteca para extracción de los géneros más escuchados por el usuario](https://github.com/fjromeero/MusicalFriends/milestone/4)
 
-- [[M2] Implementación de la lógica de negocio (algoritmo de recomendación)](https://github.com/fjromeero/MusicalFriends/milestone/3)
-  A partir de los géneros obtenidos con [M1](https://github.com/fjromeero/MusicalFriends/milestone/2) almacenadas en [M0]( https://github.com/fjromeero/MusicalFriends/milestone/1) , implementaremos un algoritmo que nos permita deducir los gustos del usuario y obtener como resultado posibles usuarios compatibles.
+- [[M3] Implementación de una API que posibilite la visualización a partir de M1 de los usuarios mas apropiados para el usuario](https://github.com/fjromeero/MusicalFriends/milestone/3)
 
 # User stories
 
