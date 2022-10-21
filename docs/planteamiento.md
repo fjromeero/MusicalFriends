@@ -2,11 +2,9 @@
 
 - [[M0] Fichero/s con el modelo de datos](https://github.com/fjromeero/MusicalFriends/milestone/1)
 
-- [[M1] Librería para obtener los datos del usuario](https://github.com/fjromeero/MusicalFriends/milestone/2) 
+- [[M1] Implementación de la lógica de negocio](https://github.com/fjromeero/MusicalFriends/milestone/4)
 
-- [[M2] Implementación de la lógica de negocio](https://github.com/fjromeero/MusicalFriends/milestone/4)
-
-- [[M3] Implementación de la interfaz de usuario](https://github.com/fjromeero/MusicalFriends/milestone/3)
+- [[M2] Implementación de la interfaz de usuario](https://github.com/fjromeero/MusicalFriends/milestone/3)
 
 # User stories
 
