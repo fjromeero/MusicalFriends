@@ -1,10 +1,10 @@
 # Milestones 
 
-- [[M0] Fichero/s con el modelo de datos](https://github.com/fjromeero/MusicalFriends/milestone/1)
+- [[M0] Módulo que defina la estructura de datos que va almacenar los datos del usuario y los géneros, sin implementación](https://github.com/fjromeero/MusicalFriends/milestone/1)
 
-- [[M1] Implementación de la lógica de negocio](https://github.com/fjromeero/MusicalFriends/milestone/4)
+- [[M1] Código de la clase/es usadas para implementar la lógica de negocio necesaria para recomendar otros usuarios en función de los géneros más escuchados](https://github.com/fjromeero/MusicalFriends/milestone/4)
 
-- [[M2] Implementación de la interfaz de usuario](https://github.com/fjromeero/MusicalFriends/milestone/3)
+- [[M2] Implementación de una API que permita visualizar la información de los perfiles obtenidos a partir de M1](https://github.com/fjromeero/MusicalFriends/milestone/3)
 
 # User stories
 
