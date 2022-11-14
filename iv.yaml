@@ -1,1 +1,6 @@
 lenguaje: node.js
+
+entidades: 
+  - src/genero.js
+  
+  
