@@ -1,6 +1,4 @@
-/**
-  * Declaración clase Género
- */
+/* Declaración Clase Género Musical */
 
 class Genero
 {
