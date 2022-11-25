@@ -2,7 +2,7 @@
 
 class Genero
 {
- constructor(nombre, oyentes){
+ constructor(nombre){
     this.nombre = nombre;
   }
 }
