@@ -2,7 +2,8 @@
 
 class Genero
 {
- constructor(nombre){
+ constructor(nombre, veces_escuchado){
     this.nombre = nombre;
+    this.veces_escuchado = veces_escuchado;
   }
 }
