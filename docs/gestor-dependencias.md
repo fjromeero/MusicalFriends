@@ -1,0 +1,8 @@
+# Gestor de dependencias del que se hará uso
+Como no he trabajado antes con gestores dependencias antes, decidí tener en cuenta las valoraciones en [Snyk Advisor](https://snyk.io/advisor/) y además complementarlo con la velocidad en el rendimiento.
+Buscando, encontré las siguientes opciones:
+    - npm, con una puntuacion de 100 en [Synk](https://snyk.io/advisor/npm-package/npm), es el que mejor puntuación tiene en el momento, con una buena seguridad, polularidad, un buen mantenimiento (su última realese fue ayer), y una comunidad activa.
+    - pnpm, tiene una puntuación actual de 98 en [Synk](https://snyk.io/advisor/npm-package/pnpm), y al igual que npm tiene una buena seguridad, es bastante popular con una media de 2,53M de descargas, mantenimiento constante (ultima release hace 4 días) y un gran comunidad.
+    - yarn, con una [puntuación](https://snyk.io/advisor/npm-package/yarn) de 85, es el que peor puntuación tiene de las 3 opciones que barajo. Esto se debe a que la última actualización que recibió fue hace 6 meses, en cuanto al resto de campos no cae atras sobre los demás, pero debido a esta falta de actualizaciones prescindiré de ella.
+
+Luego nos quedan dos opciones, npm o pnpm, para elegir entre ellos usaré la velacidad de ambos para elegir uno, usaré el siguiente [benchmark](https://pnpm.io/zh/benchmarks) cuya última actualización fue hace 5 días, en el cual podemos observar que pnpm es bastante más rápido que npm, por lo que finalmente elegiré pnpm como mi gestor de dependencias.
