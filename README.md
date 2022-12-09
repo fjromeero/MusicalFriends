@@ -25,5 +25,15 @@ La lógica de negocio consiste en un algoritmo que evaluará y devolverá valore
   [Historias de usuario y milestones](/docs/planteamiento.md)
   [Gestor de dependencias](/docs/gestor-dependencias.md)
   [Gestor de tareas](/docs/gestor-tareas.md)
-  
+
+  ### - Instalacion
+  Una vez instalado ejecute:
+  ```bash
+  pnpm install
+  ```
+
+  Si desea comprobar si la sintaxis es correcta ejecute:
+  ```bash
+  pnpm run check
+  ```
   ---
