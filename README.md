@@ -23,5 +23,7 @@ La lógica de negocio consiste en un algoritmo que evaluará y devolverá valore
  
  ### - Planificación
   [Historias de usuario y milestones](/docs/planteamiento.md)
+  [Gestor de dependencias](/docs/gestor-dependencias.md)
+  [Gestor de tareas](/docs/gestor-tareas.md)
   
   ---
