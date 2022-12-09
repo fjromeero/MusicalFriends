@@ -2,6 +2,6 @@ lenguaje: node.js
 
 entidad: src/usuario.js
 
-automatizar: 
+automatizar:
   fichero: package.json
   orden: pnpm run
