@@ -1,0 +1,7 @@
+lenguaje: node.js
+
+entidad: src/usuario.js
+
+automatizar:
+  fichero: package.json
+  orden: pnpm run
