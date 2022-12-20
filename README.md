@@ -22,9 +22,10 @@ La lógica de negocio consiste en un algoritmo que evaluará y devolverá valore
   [Personas](/docs/personas.md) que harán uso del producto
  
  ### - Planificación
-  [Historias de usuario y milestones](/docs/planteamiento.md)
-  [Gestor de dependencias](/docs/gestor-dependencias.md)
-  [Gestor de tareas](/docs/gestor-tareas.md)
+  - [Historias de usuario y milestones](/docs/planteamiento.md)
+  - [Gestor de dependencias](/docs/gestor-dependencias.md)
+  - [Gestor de tareas](/docs/gestor-tareas.md)
+  - [Test runner y libreria de aserciones](/docs/test-runner-libreria-aserciones.md)
 
   ### - Instalacion
   Una vez instalado ejecute:
