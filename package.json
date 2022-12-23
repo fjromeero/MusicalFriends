@@ -2,6 +2,7 @@
     "name": "musicalfriends",
     "version": "1.0.0",
     "description": "Proyecto que consistirá en un servicio de recomendación de personas con gustos musicales similares a los tuyos",
+    "type": "module",
     "engines": {
         "node": ">=18",
         "pnpm": ">=7"
