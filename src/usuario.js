@@ -4,7 +4,7 @@ import { Artista } from "./artista.js";
 class Usuario {
   constructor(nickname, json_artistas) {
     this.nickname = nickname;
-    this.artistas = [];
+    this.top_artistas = [];
     if(json_artistas['items']){
       for (var i = 0; i < json_artistas['items'].length; i++) {
         if (json_artistas['items'][i].type != "artist") {
@@ -14,7 +14,7 @@ class Usuario {
           for (var n_genero = 0; n_genero < json_artistas['items'][i].genres.length; n_genero++) {
             generos.push(json_artistas['items'][i].genres[n_genero])
           }
-          this.artistas.push(new Artista(json_artistas['items'][i].name, generos))
+          this.top_artistas.push(new Artista(json_artistas['items'][i].name, generos))
         }
       }
     }else{
