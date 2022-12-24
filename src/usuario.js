@@ -1,4 +1,4 @@
-import { Artista } from "./artista.js";
+const Artista = require('./artista')
 
 /* Declaración clase Usuario */
 class Usuario {
@@ -81,3 +81,5 @@ class Usuario {
     }
   }
 }
+
+module.exports = Usuario;

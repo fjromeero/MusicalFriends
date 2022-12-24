@@ -1,5 +1,5 @@
 // Clase que se encargará de realizar las recomendaciones de usuarios
-export class Recomendador{
+class Recomendador{
     constructor(usuarios){
         this.usuarios = usuarios
     }
@@ -61,3 +61,5 @@ export class Recomendador{
         return usuarios_recomendados
     }
 }
+
+module.exports = Recomendador;
