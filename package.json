@@ -10,7 +10,8 @@
         "jest": "^29.3.1"
     },
     "scripts": {
-        "check": "node --check src/*.js"
+        "check": "node --check src/*.js",
+        "test": "jest test/*.test.js"
     },
     "author": "Francisco Javier Romero Garcia"
 }
