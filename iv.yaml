@@ -5,3 +5,7 @@ entidad: src/usuario.js
 automatizar:
   fichero: package.json
   orden: pnpm run
+
+test: 
+  test/recomendacion.test.js
+  test/usuario.test.js
