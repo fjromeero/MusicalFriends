@@ -1,8 +1,8 @@
 const Recomendador = require('../src/recomendador')
 const Usuario = require('../src/usuario')
-const datos_fran = require('../../prueba/data/fran.json')
-const datos_pepe = require('../../prueba/data/pepe.json')
-const datos_angela = require('../../prueba/data/angela.json')
+const datos_fran = require('../data/fran.json')
+const datos_pepe = require('../data/pepe.json')
+const datos_angela = require('../data/angela.json')
 
 describe("Comprobación del recomendador", () => {
     const fran = new Usuario('Fran',datos_fran) 

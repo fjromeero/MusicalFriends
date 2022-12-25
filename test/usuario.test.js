@@ -1,5 +1,5 @@
 const Usuario = require('../src/usuario')
-const datos_fran = require('../../prueba/data/fran.json')
+const datos_fran = require('../data/fran.json')
 
 describe("Comprobación de los usuarios", () => {
     const fran = new Usuario("Fran", datos_fran);
