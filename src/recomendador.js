@@ -11,7 +11,7 @@ class Recomendador{
 
         // Calculamos los generos favoritos del usuario
         usuario.calcularGenerosFavoritos()
-        usuario.generos_favoritos.push('POP')
+
         // Para cada usuario
         this.usuarios.forEach(usuario_a_evaluar => {
             // Nos aseguramos que no evaluamos al usuario consigo mismo
