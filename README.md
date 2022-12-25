@@ -32,9 +32,14 @@ La lógica de negocio consiste en un algoritmo que evaluará y devolverá valore
   ```bash
   pnpm install
   ```
-
+  ### Comprobar sintaxis
   Si desea comprobar si la sintaxis es correcta ejecute:
   ```bash
   pnpm run check
+  ```
+  ### Ejecutar tests
+  Si desea llevar a cabo la ejecución de los tests:
+  ```bash
+  pnpm run test
   ```
   ---
