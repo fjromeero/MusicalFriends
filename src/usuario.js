@@ -26,6 +26,10 @@ class Usuario {
           this.top_artistas.push(new Artista(json_artistas['items'][i].name, generos))
         }
       }
+
+      // Calcula los géneros favoritos del usuario
+      this.#calcularGenerosFavoritos()
+
     } else {
       // En caso de que la sintaxis del json no sea correcta lanza una excepción
       throw ("Error: el archivo de artistas no es válido")
@@ -33,7 +37,7 @@ class Usuario {
   }
 
   // Función que calcula los géneros favoritos del usuario
-  calcularGenerosFavoritos() {
+  #calcularGenerosFavoritos() {
     // Array de géneros favoritos de un usuario
     this.generos_favoritos = []
 
