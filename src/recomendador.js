@@ -9,15 +9,10 @@ class Recomendador{
         // Diccionario que almacenará la afinidad del usuario con el resto
         let afinidad = new Map()
 
-        // Calculamos los generos favoritos del usuario
-        usuario.calcularGenerosFavoritos()
-
         // Para cada usuario
         this.usuarios.forEach(usuario_a_evaluar => {
             // Nos aseguramos que no evaluamos al usuario consigo mismo
             if(usuario != usuario_a_evaluar){
-                // Calculamos los generos favoritos del usuario a evaluar
-                usuario_a_evaluar.calcularGenerosFavoritos()
 
                 // Cantidad de generos coincidentes
                 let generos_coincidentes = 0

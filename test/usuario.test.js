@@ -4,7 +4,6 @@ const datos_erroneos = require('../data/erroneo.json')
 
 describe("Comprobación de los usuarios", () => {
     const fran = new Usuario("Fran", datos_fran);
-    fran.calcularGenerosFavoritos();
     
     it("Operaciones básicas del constructor",() => {
         expect(fran.nickname).toBe("Fran");
