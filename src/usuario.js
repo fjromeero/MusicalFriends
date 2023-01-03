@@ -2,38 +2,10 @@ const Artista = require('./artista')
 
 /* Declaración clase Usuario */
 class Usuario {
-  constructor(nickname, json_artistas) {
+  constructor(nickname, top_artistas) {
     this.nickname = nickname;
-    this.top_artistas = [];
-
-    // Comprueba que la sintaxis del json es correcta
-    if (json_artistas['items']) {
-
-      // Para cada elemento del json en este caso artistas
-      for (var i = 0; i < json_artistas['items'].length; i++) {
-        // Nos aseguramos de que la sintaxis es correcta y el archivo efectivamente contienen= artistas
-        if (json_artistas['items'][i].type != "artist") {
-          // En otro caso lanzamos una excepción
-          throw ("Error: el archivo no es de artistas")
-        } else {
-          let generos = [];
-          // Para cada genero
-          for (var n_genero = 0; n_genero < json_artistas['items'][i].genres.length; n_genero++) {
-            // Añadimos los géneros al vector de géneros
-            generos.push(json_artistas['items'][i].genres[n_genero])
-          }
-          // Creamos un artista con el nombre de este y sus géneros
-          this.top_artistas.push(new Artista(json_artistas['items'][i].name, generos))
-        }
-      }
-
-      // Calcula los géneros favoritos del usuario
-      this.#calcularGenerosFavoritos()
-
-    } else {
-      // En caso de que la sintaxis del json no sea correcta lanza una excepción
-      throw ("Error: el archivo de artistas no es válido")
-    }
+    this.top_artistas = top_artistas;
+    this.#calcularGenerosFavoritos()
   }
 
   // Función que calcula los géneros favoritos del usuario
@@ -83,6 +55,43 @@ class Usuario {
           this.generos_favoritos.push(genero)
       })
     }
+  }
+}
+
+function fromJSONToUsuario(nombre,json){
+
+  // Comprueba que la sintaxis del json es correcta
+  if (json['items']) {
+
+    let top_artistas = []
+
+    // Para cada elemento del json en este caso artistas
+    for (var i = 0; i < json['items'].length; i++) {
+      // Nos aseguramos de que la sintaxis es correcta y el archivo efectivamente contienen= artistas
+      if (json['items'][i].type != "artist") {
+        // En otro caso lanzamos una excepción
+        throw ("Error: el archivo no es de artistas")
+      } else {
+        let generos = [];
+        // Para cada genero
+        for (var n_genero = 0; n_genero < json['items'][i].genres.length; n_genero++) {
+          // Añadimos los géneros al vector de géneros
+          generos.push(json['items'][i].genres[n_genero])
+        }
+        // Creamos un artista con el nombre de este y sus géneros
+        top_artistas.push(new Artista(json['items'][i].name, generos))
+      }
+    }
+
+    // Creamos el usuario con los datos
+    const usuario = new Usuario(nombre,top_artistas)
+
+    // Devolvemos el usuario
+    return usuario
+
+  } else {
+    // En caso de que la sintaxis del json no sea correcta lanza una excepción
+    throw ("Error: el archivo de artistas no es válido")
   }
 }
 
