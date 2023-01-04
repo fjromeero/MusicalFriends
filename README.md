@@ -27,18 +27,12 @@ La lógica de negocio consiste en un algoritmo que evaluará y devolverá valore
   - [Gestor de tareas](/docs/gestor-tareas.md)
   - [Test runner y libreria de aserciones](/docs/test-runner-libreria-aserciones.md)
 
-  ### - Instalacion
-  Una vez descargado ejecute:
-  ```bash
-  pnpm install
-  ```
-
-  ### Comprobar sintaxis de los archivos
+ ### Comprobar sintaxis de los archivos
   Si desea comprobar si la sintaxis del código es correcta ejecute:
   ```bash
   pnpm run check
   ```
-  
+
   ### Ejecutar tests
   Si desea llevar a cabo la ejecución de los tests:
   ```bash
