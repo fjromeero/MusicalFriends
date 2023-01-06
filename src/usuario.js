@@ -67,7 +67,7 @@ function recomiendaUsuarios(todos_usuarios, usuario) {
 
     Object.keys(generos_compartidos_usuarios).map(usuario_a_evaluar => {
         generos_compartidos_usuarios[usuario_a_evaluar] === max_generos_compartidos 
-            ? usuarios_recomendados.push(todos_usuarios.find(usuario => usuario.nickname = usuario_a_evaluar))
+            ? usuarios_recomendados.push(todos_usuarios.find(usuario => usuario.nickname == usuario_a_evaluar))
             : null
     })
 
