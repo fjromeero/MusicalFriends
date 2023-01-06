@@ -5,8 +5,15 @@ class Usuario{
     }
 }
 
-function fromJSONToUsuario(nombre, json){
-    
+function fromJSONToUsuario(nickname, json){
+    const total_generos = []
+    json.items.map(item => {
+        item.genres.map(genero => {
+            total_generos.push(genero)
+        })
+    })
+    const usuario = new Usuario(nickname,calculaGenerosFavoritos(total_generos))
+    return usuario
 }
 
 function calculaGenerosFavoritos(generos){
