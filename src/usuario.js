@@ -7,11 +7,19 @@ class Usuario{
 
 function fromJSONToUsuario(nickname, json){
     const total_generos = []
-    json.items.map(item => {
-        item.genres.map(genero => {
-            total_generos.push(genero)
+    if(json.items){
+        json.items.map(item => {
+            if(item.type === 'artist'){
+                item.genres.map(genero => {
+                    total_generos.push(genero)
+                })
+            }else{
+                throw ("Error: el archivo no es de artistas")
+            }
         })
-    })
+    }else{
+        throw ("Error: la sintaxis del archivo no es valida")
+    }
     const usuario = new Usuario(nickname,calculaGenerosFavoritos(total_generos))
     return usuario
 }
