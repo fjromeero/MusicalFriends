@@ -22,18 +22,32 @@ La lógica de negocio consiste en un algoritmo que evaluará y devolverá valore
   [Personas](/docs/personas.md) que harán uso del producto
  
  ### - Planificación
-  [Historias de usuario y milestones](/docs/planteamiento.md)
-  [Gestor de dependencias](/docs/gestor-dependencias.md)
-  [Gestor de tareas](/docs/gestor-tareas.md)
+  - [Historias de usuario y milestones](/docs/planteamiento.md)
+  - [Gestor de dependencias](/docs/gestor-dependencias.md)
+  - [Gestor de tareas](/docs/gestor-tareas.md)
+  - [Test runner y libreria de aserciones](/docs/test-runner-libreria-aserciones.md)
 
-  ### - Instalacion
-  Una vez instalado ejecute:
-  ```bash
-  pnpm install
+ ### Instalacion
+ Una vez descargado el proyecto, se ha de instalar pnpm (el gestor de dependencias que se usara) si no lo tiene ya instalado, para ello:
+ ```bash
+  npm install -g pnpm
   ```
 
-  Si desea comprobar si la sintaxis es correcta ejecute:
+ Una vez instalado pnpm ejecutaremos:
+ ```bash
+  pnpm install
+  ```
+ para instalar todas las dependencias del proyecto
+
+ ### Comprobar sintaxis de los archivos
+  Si desea comprobar si la sintaxis del código es correcta ejecute:
   ```bash
   pnpm run check
+  ```
+
+  ### Ejecutar tests
+  Si desea llevar a cabo la ejecución de los tests:
+  ```bash
+  pnpm run test
   ```
   ---

@@ -1,0 +1,99 @@
+{
+    "items": [
+        {
+            "genres": [
+                "reggaeton",
+                "trap latino",
+                "urbano latino"
+            ],
+            "name": "Bad Bunny",
+            "type": "artist"
+        },
+        {
+            "genres": [
+                "argentine hip hop",
+                "pop venezolano",
+                "trap argentino",
+                "trap latino",
+                "urbano latino"
+            ],
+            "name": "Bizarrap",
+            "type": "artist"
+        },
+        {
+            "genres": [
+                "puerto rican pop",
+                "trap latino",
+                "urbano latino"
+            ],
+            "name": "Rauw Alejandro",
+            "type": "artist"
+        },
+        {
+            "genres": [
+                "reggaeton",
+                "reggaeton flow",
+                "trap boricua",
+                "trap latino",
+                "urbano latino"
+            ],
+            "name": "Anuel AA",
+            "type": "artist"
+        },
+        {
+            "genres": [
+                "colombian pop",
+                "pop reggaeton",
+                "reggaeton colombiano",
+                "urbano latino"
+            ],
+            "name": "Feid",
+            "type": "artist"
+        },
+        {
+            "genres": [
+                "argentine hip hop",
+                "trap argentino",
+                "trap latino",
+                "trap triste",
+                "urbano latino"
+            ],
+            "name": "Duki",
+            "type": "artist"
+        },
+        {
+            "genres": [
+                "reggaeton",
+                "trap latino",
+                "urbano latino"
+            ],
+            "name": "Jhayco",
+            "type": "artist"
+        },
+        {
+            "genres": [
+                "urbano espanol"
+            ],
+            "name": "C. Tangana",
+            "type": "artist"
+        },
+        {
+            "genres": [
+                "rap canario",
+                "urbano latino"
+            ],
+            "name": "Quevedo",
+            "type": "artist"
+        },
+        {
+            "genres": [
+                "drill espanol",
+                "trap triste",
+                "urbano espanol",
+                "urbano latino"
+            ],
+            "name": "Kidd Keo",
+            "type": "artist"
+        }
+    ]
+}
