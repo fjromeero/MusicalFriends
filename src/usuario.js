@@ -61,7 +61,7 @@ function recomiendaUsuarios(todos_usuarios, usuario) {
             generos_compartidos_usuarios[usuario_a_evaluar.nickname] = contador
         }
     })
-    
+
     const usuarios_recomendados = []
     const max_generos_compartidos = Math.max(...Object.values(generos_compartidos_usuarios))
 
@@ -73,3 +73,5 @@ function recomiendaUsuarios(todos_usuarios, usuario) {
 
     return usuarios_recomendados
 }
+
+module.exports = {Usuario, fromJSONToUsuario, recomiendaUsuarios}
