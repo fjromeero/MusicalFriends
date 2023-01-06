@@ -1,7 +1,8 @@
-const {fromJSONToUsuario} = require('../src/usuario')
+const {fromJSONToUsuario, recomiendaUsuarios} = require('../src/usuario')
 
 const datos_fran = require('../data/fran.json')
 const datos_pepe = require('../data/pepe.json')
+const datos_angela = require('../data/angela.json')
 const erroneo = require('../data/erroneo.json')
 
 describe("Comprobacion de la creacion de un usuario" ,() =>{
@@ -19,5 +20,17 @@ describe("Comprobacion de lanzamiento de excepciones", () => {
         expect(
             () => fromJSONToUsuario('',erroneo)
         ).toThrowError("Error: el archivo no es de artistas")
+    })
+})
+
+describe("Comprobacion de la recomendacion de usuarios" ,() =>{
+    const fran = fromJSONToUsuario('Fran',datos_fran)
+    const pepe = fromJSONToUsuario('Pepe',datos_pepe)
+    const angela = fromJSONToUsuario('Angela', datos_angela)
+
+    it("Recomendacion",() => {
+        expect(recomiendaUsuarios([fran,pepe,angela],fran)).toStrictEqual([pepe])
+        expect(recomiendaUsuarios([fran,pepe,angela],pepe)).toStrictEqual([fran,angela])
+        expect(recomiendaUsuarios([fran,pepe,angela],angela)).toStrictEqual([pepe])
     })
 })
