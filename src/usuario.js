@@ -5,6 +5,10 @@ class Usuario{
     }
 }
 
+function fromJSONToUsuario(nombre, json){
+    
+}
+
 function calculaGenerosFavoritos(generos){
     const frecuencia_generos = {}
     generos.map(genero => {
@@ -22,6 +26,5 @@ function calculaGenerosFavoritos(generos){
         frecuencia_generos[genero] === frecuencia_maxima ? generos_favoritos.push(genero) : null
     })
 
-    const usuario = new Usuario(nickname,generos_favoritos)
-    return usuario
+    return generos_favoritos
 }
